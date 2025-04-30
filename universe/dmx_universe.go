@@ -33,6 +33,10 @@ func (U *DMXUniverse) Universe() uint16 {
 	return U.universe
 }
 
+func (U *DMXUniverse) GetChannel(channel int) int {
+	return int(U.channelData[channel-1])
+}
+
 // SetChannel sets dmx channel to specified value
 func (U *DMXUniverse) SetChannel(channel int, value int) error {
 	if channel < 1 || channel > 512 {
