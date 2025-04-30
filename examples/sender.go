@@ -1,9 +1,9 @@
 package main
 
 import (
-	sender2 "Golang-Artnet/sender"
-	"Golang-Artnet/universe"
 	"fmt"
+	sender2 "github.com/RickHulzinga/go-simple-artnet/sender"
+	"github.com/RickHulzinga/go-simple-artnet/universe"
 	"log"
 	"time"
 )

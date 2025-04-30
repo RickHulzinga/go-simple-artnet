@@ -1,8 +1,8 @@
 package sender
 
 import (
-	"Golang-Artnet/packets"
-	"Golang-Artnet/universe"
+	"github.com/RickHulzinga/go-simple-artnet/packets"
+	"github.com/RickHulzinga/go-simple-artnet/universe"
 	"net"
 )
 

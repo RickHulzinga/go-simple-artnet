@@ -1,10 +1,10 @@
 package packets
 
 import (
-	"Golang-Artnet/universe"
 	"bytes"
 	"encoding/binary"
 	"fmt"
+	"github.com/RickHulzinga/go-simple-artnet/universe"
 )
 
 type DMXPacket struct {

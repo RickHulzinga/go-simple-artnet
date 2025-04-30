@@ -1,8 +1,8 @@
 package node
 
 import (
-	"Golang-Artnet/sender"
-	"Golang-Artnet/universe"
+	"github.com/RickHulzinga/go-simple-artnet/sender"
+	"github.com/RickHulzinga/go-simple-artnet/universe"
 	"time"
 )
 

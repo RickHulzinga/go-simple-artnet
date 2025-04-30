@@ -1,7 +1,7 @@
 package main
 
 import (
-	"Golang-Artnet/node"
+	"github.com/RickHulzinga/go-simple-artnet/node"
 	"time"
 )
 
