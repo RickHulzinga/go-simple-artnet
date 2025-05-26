@@ -43,7 +43,7 @@ func (n *ArtNetNode) worker() {
 
 			for _, dmxUniverse := range n.universes {
 				n.sender.Send(dmxUniverse)
-				time.Sleep(100 * time.Millisecond)
+
 			}
 
 		case <-n.stopChan: // Stop signal received
